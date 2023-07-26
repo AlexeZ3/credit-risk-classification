@@ -49,10 +49,20 @@ Structure your report by using the report template that Starter_Code.zip include
 
     The purpose of this analysis is to create and evaluate the accuracy of a data model that predicts the credity worthiness of potential borrowers from peer-to-peer lending services.
 
+Model Number 1
+
 Balanced Accuracy Score: 95.20% --> this means that when taking into account the sensitivity (recall and/or true positive rate) and specificity (true negative rate) of the model, the balanced prediction accuracy was 95.2%.
 
 Precision Score: 92% --> This means 92% of predicted positives were correct.
 
 Recall Score: 95% --> this means that the model was 95% precise in measuring true positive values our of all positive predictions made.
 
-I would recommend using this model to predict the creditworthiness of borrowers, because it has over 95% accuracy in predicting the outcome of the repayment of the initial loan. That accuracy range could be easily molded into a business risk profile to ensure sufficient capital flow for the lenders to remain in business/make a profit.
+Model Number 2
+
+Balanced Accuracy Score: 99.45% --> this means that when taking into account the sensitivity (recall and/or true positive rate) and specificity (true negative rate) of the model, the balanced prediction accuracy was 99.4%.
+
+Precision Score: 99% --> This means 99% of predicted positives were correct.
+
+Recall Score: 99% --> this means that the model was 99% precise in measuring true positive values our of all positive predictions made.
+
+While the second model outperforms the first by 4%, I would recommend using either one of these models to predict the creditworthiness of borrowers, because the first model has over 95% accuracy in predicting the outcome of the repayment of the initial loan and the second model has a 99% accuracy. That accuracy range could be easily molded into a business risk profile to ensure sufficient capital flow for the lenders to remain in business/make a profit.
